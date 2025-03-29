@@ -1,0 +1,28 @@
+{
+  "name": "stock-mcp-server",
+  "version": "1.0.0",
+  "description": "A real-time stock quote server using Sina Finance API with MCP protocol",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "stock-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": ["stock", "mcp"],
+  "author": "yongyang",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2"
+  }
+}

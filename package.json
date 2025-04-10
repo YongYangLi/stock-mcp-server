@@ -1,6 +1,6 @@
 {
   "name": "stock-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A real-time stock quote server using Sina Finance API with MCP protocol",
   "main": "build/index.js",
   "type": "module",
